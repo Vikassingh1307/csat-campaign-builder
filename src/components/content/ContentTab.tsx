@@ -52,17 +52,19 @@ export const ContentTab: FC = () => {
           </div>
           <div className="space-y-1.5">
             <label htmlFor="rating-scale" className="text-sm font-medium text-gray-700">Rating Scale</label>
-          <select
-            id="rating-scale"
-            className="w-full px-3 py-2.5 border border-gray-200 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/40 focus:border-indigo-500 text-sm bg-white hover:border-gray-300 transition-all"
-            value={content.feedback.maxRating}
-            onChange={(e) => updateContent("feedback", "maxRating", parseInt(e.target.value, 10))}
-            aria-label="Select rating scale"
-          >
-            <option value={3}>3 Stars</option>
-            <option value={5}>5 Stars</option>
-            <option value={10}>10 Stars</option>
-          </select>
+            <select
+              id="rating-scale"
+              className="w-full px-3 py-2.5 border border-gray-200 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/40 focus:border-indigo-500 text-sm bg-white hover:border-gray-300 transition-all"
+              value={content.feedback.maxRating}
+              onChange={(e) => updateContent("feedback", "maxRating", parseInt(e.target.value, 10))}
+              aria-label="Select rating scale"
+            >
+              <option value={1}>1</option>
+              <option value={2}>2</option>
+              <option value={3}>3</option>
+              <option value={4}>4</option>
+              <option value={5}>5</option>
+            </select>
           </div>
         </div>
 
