@@ -40,20 +40,20 @@ src/
 
 ## 📦 Setup Instructions
 
-1. **Clone the repository** (if applicable) or unzip the project folder.
-2. **Navigate into the project directory**:
+1. **Clone the repository**:
    ```bash
-   cd csat-builder
+   git clone https://github.com/Vikassingh1307/csat-campaign-builder.git
+   cd csat-campaign-builder
    ```
-3. **Install dependencies**:
+2. **Install dependencies**:
    ```bash
    npm install
    ```
-4. **Start the development server**:
+3. **Start the development server**:
    ```bash
    npm run dev
    ```
-5. **Open your browser** and visit `http://localhost:5173` (or the URL provided in your terminal).
+4. **Open your browser** and visit `http://localhost:5173`.
 
 ## 🚀 Deployment
 
@@ -64,5 +64,5 @@ This project is configured out-of-the-box for easy deployment to Vercel, Netlify
 2. Run `vercel` in the project root and follow the prompts.
 3. Alternatively, connect your GitHub repository directly to Vercel for automatic deployments.
 
-*(Update this section with your live deployment link once deployed)*
-**Live Demo:** [Add Link Here]
+**GitHub Repository:** [Vikassingh1307/csat-campaign-builder](https://github.com/Vikassingh1307/csat-campaign-builder)
+
